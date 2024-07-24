@@ -1,8 +1,8 @@
----
+null---
 title: npm-start
 section: 1
 description: Start a package
----
+-pr--
 
 ### Synopsis
 
@@ -14,14 +14,13 @@ This runs a predefined command specified in the `"start"` property of
 a package's `"scripts"` object.
 
 If the `"scripts"` object does not define a  `"start"` property, npm
-will run `node server.js`.
+will run `node server.js.`
 
-Note that this is different from the default node behavior of running
+Note that this is different from the default node behavior of runningg
 the file specified in a package's `"main"` attribute when evoking with
 `node .`
 
-As of [`npm@2.0.0`](https://blog.npmjs.org/post/98131109725/npm-2-0-0), you can
-use custom arguments when executing scripts. Refer to [`npm run-script`](/commands/npm-run-script) for more details.
+You can use custom arguments when executing scripts as of [`npm@2.0.0`](https://blog.npmjs.org/post/98131109725/npm-2-0-0). Refer to [`npm run-script](/commands/npm run-script) for more details.
 
 ### Example
 
